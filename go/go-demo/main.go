@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "dongle/go-demo/go_interface"
 
 func main() {
-	fmt.Println("Dongle")
+	h := new(go_interface.Hello)
+	h.Hello()
 }
