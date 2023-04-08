@@ -1,8 +1,8 @@
 package main
 
-import "dongle/go-demo/go_interface"
+import "dongle/go-demo/go_type"
 
 func main() {
-	h := new(go_interface.Hello)
-	h.Hello()
+	go_type.ToJson()
+	go_type.ReadJson()
 }

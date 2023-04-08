@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	web.StartWeb("", 80)
+	web.StartWebSocket()
 }
